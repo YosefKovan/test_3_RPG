@@ -1,6 +1,5 @@
 from factory.factory import Factory
 from core.monster import Monster
-from core.player import Player
 from random import randrange
 from battle import Battle
 from core.player import Player
