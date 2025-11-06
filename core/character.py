@@ -19,9 +19,6 @@ class Character(ABC):
 
         attacker_dice_rol = Dice.roll_twenty_dice()
 
-        print("the attacker is:")
-        self.speak()
-
         if attacker_dice_rol + self.speed > attacked.armor_rating:
             #this will return the amount of harm that is caused
             attack_result = self.handle_attack_result(attacked)
